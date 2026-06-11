@@ -1,14 +1,14 @@
-import Sidebar from "../components/Sidebar";
+import Sidebar from "../components/dashboard/Sidebar";
 
 function StudentLayout({ children }) {
   return (
-    <div className="flex">
+    <div className="flex min-h-screen bg-slate-950">
 
       <Sidebar />
 
-      <div className="flex-1 bg-gray-100 min-h-screen p-6">
+      <main className="flex-1 p-8 overflow-auto">
         {children}
-      </div>
+      </main>
 
     </div>
   );

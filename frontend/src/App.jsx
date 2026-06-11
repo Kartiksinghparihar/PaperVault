@@ -1,5 +1,7 @@
+import CollegePYQApp from "./legacy/CollegePYQ_App";
+
 function App() {
-  return null;
+  return <CollegePYQApp />;
 }
 
 export default App;
